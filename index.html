@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Roadster Loop</title>
+<title>Roadster Loop - Free Online Stunt Driving Game</title>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8372545404533028" crossorigin="anonymous"></script>
 <style>
-html,body{margin:0;height:100%;background:#03050c;color:#e8f1ff;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;overflow:hidden;color-scheme:dark;touch-action:none;user-select:none;-webkit-user-select:none}
+html,body{margin:0;min-height:100%;background:#03050c;color:#e8f1ff;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;overflow:auto;color-scheme:dark;touch-action:none;user-select:none;-webkit-user-select:none}
 canvas{position:fixed;inset:0;width:100%;height:100%;display:block}
 #hud{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);display:flex;justify-content:space-between;padding:10px 14px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;pointer-events:none;text-shadow:0 0 8px #000}
 #hud b{display:block;font-size:20px;color:#38e8ff;letter-spacing:0}
@@ -36,7 +36,25 @@ footer{position:fixed;left:0;right:0;bottom:env(safe-area-inset-bottom,0px);text
 <div id="msg"></div>
 <div id="panel"></div>
 <div id="ctl"><div class="btn" data-k="l">&#9664;</div><div class="btn" data-k="r">&#9654;</div></div>
-<footer>Unofficial fan game, not affiliated with Tesla. | <a href="/privacy.html" style="color:#38e8ff">Privacy</a></footer>
+
+<div id="content" style="position:relative;z-index:10;max-width:800px;margin:100vh auto 40px auto;padding:20px;background:#0a0f1f;border-radius:12px;color:#ccc;line-height:1.8;font-family:sans-serif;border:1px solid #38e8ff33">
+<h2 style="color:#38e8ff">About Roadster Loop Game</h2>
+<p>Roadster Loop is a free-to-play browser-based physics stunt game inspired by the iconic Tesla Roadster in space. Perform insane loops, backflips, and frontflips while collecting rings and managing your fuel. The game uses realistic physics simulation to create a challenging and fun experience for all ages.</p>
+
+<h2 style="color:#38e8ff">How to Play</h2>
+<p><b>Desktop:</b> Use Arrow Keys to drive and Space to boost. Press left/right arrow in air to flip.<br>
+<b>Mobile:</b> Use on-screen buttons - left/right to drive, up arrow to boost. Tap left/right side of screen while in air to perform flips.<br>
+Collect fuel cans to keep your gas full. Collect rings to increase your score. Each successful flip gives you bonus points.</p>
+
+<h2 style="color:#38e8ff">Game Features</h2>
+<p>• Realistic physics-based driving<br>• Perform frontflips and backflips<br>• Collect rings and fuel<br>• Mobile friendly controls<br>• Completely free and no download required<br>• Works offline after loading</p>
+
+<h2 style="color:#38e8ff">Why Play Roadster Loop?</h2>
+<p>This game is perfect for quick 2-3 minute fun sessions. Challenge your friends to beat your high score. The game is lightweight, fast, and runs smoothly on any phone or computer without installing anything.</p>
+</div>
+
+<footer style="position:relative;z-index:10;text-align:center;padding:30px 20px;color:#888;background:#050914;margin-top:40px">Unofficial fan game, not affiliated with Tesla. | <a href="/privacy.html" style="color:#38e8ff">Privacy Policy</a> | <a href="/privacy.html" style="color:#38e8ff">Contact</a><br><br>Contact: vaultabhinay@gmail.com | Made by Abhinay Kumar</footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
 (()=>{
